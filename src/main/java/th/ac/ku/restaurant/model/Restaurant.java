@@ -60,7 +60,5 @@ public class Restaurant {
         this.numSeats = numSeats;
     }
 
-    //  ให้ Generate..
-    //       - Getters และ Setters ทั้งหมด
-
+    //  Generate All Getters & Setters!
 }

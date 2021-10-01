@@ -20,6 +20,7 @@ public class RestaurantService {
 
     public Restaurant create(Restaurant restaurant) {
         repository.save(restaurant);
+
         return restaurant;
     }
 
@@ -42,6 +43,7 @@ public class RestaurantService {
     public Restaurant delete(UUID id) {
         Restaurant record = repository.findById(id).get();
         repository.deleteById(id);
+
         return record;
     }
 
