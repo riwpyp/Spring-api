@@ -19,6 +19,7 @@ public class Restaurant {
     private String address;
     private String phone;
     private int numSeats;
+    private int test;
 
     public UUID getId() {
         return id;
